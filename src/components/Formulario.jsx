@@ -53,6 +53,7 @@ const Formulario = () => {
               type="text"
               placeholder="Ej: 12345678"
               required
+              minLength="8"
             />
             <Form.Control.Feedback type="invalid">
               Por favor escribe tu numero de DNI
